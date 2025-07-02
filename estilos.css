@@ -1,0 +1,22 @@
+body {
+  background-color: #fff8f0;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: #333;
+  text-align: center;
+}
+header {
+  background-color: #fceaff;
+  padding: 1em;
+}
+h1 {
+  font-size: 2.5em;
+  color: #000;
+}
+img {
+  width: 300px;
+  animation: girar 10s linear infinite;
+}
+@keyframes girar {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
